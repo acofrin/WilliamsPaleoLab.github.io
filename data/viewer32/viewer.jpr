@@ -1,0 +1,51 @@
+;JBuilder -- PROJECT FILE VERSION {1.05} - do not alter this line!
+;--- main project settings
+[Project]
+Name=Viewer.jpr
+DefaultDir=.
+ProjectHtml=
+UseJavaDefaults=0
+ClassPath=\JBuilder\lib\jbcl.zip;\JBuilder\lib\jgl.zip;\JBuilder\java\lib\classes.zip
+SourcePath=..\viewer32;\JBuilder\myprojects;\JBuilder\java\src.zip;\JBuilder\src\jgl-src.zip
+CompilerSourcePath=..\viewer32;\JBuilder\myprojects;\JBuilder\java\src.zip;\JBuilder\src\jgl-src.zip
+OutPath=..\viewer32
+DefaultRunnable=.\Viewer.html
+DebugInfo=1
+CheckStable=0
+MakeStable=1
+Deprecations=1
+etacsufbo=0
+ShowWarnings=1
+ExcludeClass=
+Encoding=
+Parameters=
+JavaVMParameters=
+CompileFirst=1
+UseExecutionLog=0
+
+;--- Project contents
+[Contents]
+file:///.\viewer.html
+file:///.\webviewer.html
+file:///.\webloop.java
+file:///.\webviewer.java
+file:///.\pollenlist.java
+file:///.\imgcanvas.java
+file:///.\title.gif
+file:///.\tildatext.txt
+file:///.\test.java
+
+[Params]
+Title=Pollen Viewer
+Author=Phil Leduc
+Company=Brown University
+Copyright=Copyright (c) 1997
+Description=Improved Web version of the pollen
+viewer featuring generalized pollen lists
+with formal and common names. Radio
+buttons were replaced by a drop-down
+selection window.
+ShowDirTab=1
+DefaultPackage=Viewer
+
+;--- DONE

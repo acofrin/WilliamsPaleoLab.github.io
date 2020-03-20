@@ -1,0 +1,39 @@
+Use Adobe Photoshop to make new transparent gif.
+
+The original one line title image has
+
+	Dimensions = 224 x 19 pixels
+
+The version 3.2 two line title image has
+
+  Dimensions - 120 x 50 pixels
+
+The title font is
+
+	Bremen Bd BT Bold 18 pt and
+
+The version number font is
+
+	Bremen Bd BT Bold 10 pt
+
+The green has 
+
+	RGB = 149,56,0
+
+The version number is black, 
+
+	RGB = 0,0,0
+
+The background color which is crucial to anti-aliasing
+is gray, 
+
+	RGB = 189,189,189
+
+Save the graphics as a gif with transparency. Use
+
+	Choose File > Export > GIF89a Export.
+
+This resulting title will still have white spots around it.
+To correct this load the gif into Paintshop Pro and set the
+background color to the tranparency color then save the image
+again. Paintshop Pro will get rid of the spots.
